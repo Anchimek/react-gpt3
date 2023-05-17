@@ -12,6 +12,8 @@ import people from './people.png'
 import possibility from './possibility.png'
 import shopify from './shopify.png'
 import slack from './slack.png'
+import logoSVG from './logoSVG.svg'
+import menu from './menu.svg'
 
 export {
     ai,
@@ -27,5 +29,7 @@ export {
     people,
     possibility,
     shopify,
-    slack
+    slack,
+    logoSVG,
+    menu
 }
