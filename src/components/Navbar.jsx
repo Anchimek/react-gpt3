@@ -15,7 +15,7 @@ const Navbar = () => {
               key={index}
               className={`
                 font-Monroe font-normal text-white 
-                text-[16px] leading-[25px]
+                text-[14px] lg:text-[16px] leading-[25px]
                 ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}
               `}
             >
@@ -36,7 +36,7 @@ const Navbar = () => {
           '>
             Sign in
           </span>
-          <Button content='Sign up'/>
+          <Button content='Sign up' rounded={'rounded-lg'}/>
         </div>
 
         <div className='md:hidden flex flex-1 justify-end items-center'>
