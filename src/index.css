@@ -41,6 +41,12 @@ body {
   border-radius: 5px 0px 0px 5px;
 }
 
+.bg-input-mobile {
+  background: #052D56;
+  color: #3D6184;
+  border-radius: 5px 5px 0px 0px;
+}
+
 .bg-lightPurple-gradient {
   background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     -webkit-background-clip: text;
