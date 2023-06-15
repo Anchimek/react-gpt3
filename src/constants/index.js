@@ -60,7 +60,7 @@ export const improvements = [
         content: 
             `At jointure ladyship an insisted so humanity 
             he. Friendly bachelor entrance to on by. 
-            As put impossible own apartments b`
+            As put impossible own apartments`
     },
     {
         id: 'improvement-3',
@@ -68,7 +68,7 @@ export const improvements = [
         content: 
             `At jointure ladyship an insisted so humanity 
             he. Friendly bachelor entrance to on by. 
-            As put impossible own apartments b`
+            As put impossible own apartments`
     },
 ]
 

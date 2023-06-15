@@ -8,8 +8,10 @@ export default {
         primary: "#040C18",
         secondary: "#81AFDD",
         darkBlue: "#042C54",
+        lightBlue: "#1B78DE",
         white: "#ffffff",
-        orange: '#FF4820'
+        orange: '#FF4820',
+        salmon: '#FF8A71'
       },
       fontFamily: {
         Manrope: ["Manrope", "normal"],

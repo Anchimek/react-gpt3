@@ -6,6 +6,7 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import Register from './Register'
 import Button from './Button'
+import Partners from './Partners'
 
 export {
     About,
@@ -15,5 +16,6 @@ export {
     Hero,
     Navbar,
     Register,
-    Button
+    Button,
+    Partners
 }

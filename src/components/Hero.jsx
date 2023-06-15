@@ -29,13 +29,13 @@ const Hero = () => (
           <div className='flex sm:w-full sm:h-[60px] justify-center sm:justify-start flex-col sm:flex-row'>
             <input
               placeholder='Your Email Address'
-              className='w-[100%] sm:w-[60%] lgh:w-[70%] h-[50px] sm:h-[auto] bg-input-mobile sm:bg-input sm:pl-[30px] text-center sm:text-left'
+              className='w-[100%] sm:w-[60%] lgh:w-[70%] h-[50px] sm:h-[auto] rounded-t-md md:rounded-l-md bg-input sm:pl-[30px] text-center sm:text-left'
             />
             <Button content='Get Started' rounded={'sm:rounded-r-lg'}/>
           </div>
           <div className='absolute w-[80%] h-[80%] rounded-full blue-gradient-2'/>
           <div className='flex items-center flex-col sm:flex-row w-full my-8'>
-            <img src={people} alt='people' className='object-cover' />
+            <img src={people} alt='people' className='object-contain min-w-[80px]' />
             <p className='text-white font-Manrope font-medium text-[11px] sm:text-[12px] font-normal mt-2 sm:ml-2 text-center'>1,600 people requested access a visit in last 24 hours</p>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Hero = () => (
           md:my-0 my-10 
           relative 
         `}>
-          <img src={ai} alt='ai' className='w-[100%] h-[100%] relative z-[5] object-cover'/>
+          <img src={ai} alt='ai' className='w-[100%] h-[100%] relative z-[5] object-contain'/>
         </div>
       </div>
       <div></div>
