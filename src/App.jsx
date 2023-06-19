@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './styles'
 
-import { About, Blog, Features, Footer, Hero, Navbar, Register, Partners } from './components'
+import { About, Blog, Features, Footer, Hero, Navbar, Register, Partners, GetStarted } from './components'
 
 const App = () => (
-          <div className='bg-primary w-full overflow-hidden m-[0] px-8 sm:px-16'>
+          <div className='bg-primary w-full overflow-hidden m-[0] px-4 sm:px-16'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
@@ -21,6 +21,9 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
           <Partners />
           <About />
+          <Features />
+          <GetStarted />
+          <Register />
         </div>
       </div>
 

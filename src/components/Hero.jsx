@@ -15,7 +15,7 @@ const Hero = () => (
           justify-center 
           items-center
         `}>
-          <h1 className='text-[36px] lg:text-[48px] lgh:text-[58px] text-center sm:text-left leading-[50px] lg:leading-[75px] bg-lightPurple-gradient font-Manrope font-extrabold'>
+          <h1 className='text-[36px] lg:text-[48px] lgh:text-[58px] text-center sm:text-left leading-[50px] lg:leading-[75px] bgText-lightPurple-gradient font-Manrope font-extrabold'>
             Let’s Build Something
             amazing with GPT-3
             OpenAI
@@ -47,7 +47,6 @@ const Hero = () => (
           <img src={ai} alt='ai' className='w-[100%] h-[100%] relative z-[5] object-contain'/>
         </div>
       </div>
-      <div></div>
     </section>
 )
 

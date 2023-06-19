@@ -4,9 +4,10 @@ import Features from './Features'
 import Footer from './Footer'
 import Hero from './Hero'
 import Navbar from './Navbar'
-import Register from './Register'
+import GetStarted from './GetStarted'
 import Button from './Button'
 import Partners from './Partners'
+import Register from './Register'
 
 export {
     About,
@@ -15,7 +16,8 @@ export {
     Footer,
     Hero,
     Navbar,
-    Register,
+    GetStarted,
     Button,
-    Partners
+    Partners,
+    Register
 }
