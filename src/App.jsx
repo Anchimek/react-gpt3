@@ -24,6 +24,7 @@ const App = () => (
           <Features />
           <GetStarted />
           <Register />
+          <Blog />
         </div>
       </div>
 
