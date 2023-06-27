@@ -9,7 +9,7 @@ const Features = () => {
           The Future is Now and You Just Need To Realize It. 
           Step into Future Today & Make it Happen.
         </h2>
-        <p className='text-[12px] text-salmon font-Manrope my-12'>
+        <p className='text-[12px] text-salmon font-Manrope my-12 cursor-pointer hover:font-bold'>
           Request Early Access to Get Started
         </p>
         <div className='absolute w-[80%] h-[80%] rounded-full blue-gradient-2'/>

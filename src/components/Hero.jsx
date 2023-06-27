@@ -14,6 +14,7 @@ const Hero = () => (
           relative
           justify-center 
           items-center
+          z-10
         `}>
           <h1 className='text-[36px] lg:text-[48px] lgh:text-[58px] text-center sm:text-left leading-[50px] lg:leading-[75px] bgText-lightPurple-gradient font-Manrope font-extrabold'>
             Let’s Build Something
@@ -33,7 +34,7 @@ const Hero = () => (
             />
             <Button content='Get Started' rounded={'sm:rounded-r-lg'}/>
           </div>
-          <div className='absolute w-[80%] h-[80%] rounded-full blue-gradient-2'/>
+          <div className='absolute w-[80%] h-[80%] rounded-full blue-gradient-2 z-[-10]'/>
           <div className='flex items-center flex-col sm:flex-row w-full my-8'>
             <img src={people} alt='people' className='object-contain min-w-[80px]' />
             <p className='text-white font-Manrope font-medium text-[11px] sm:text-[12px] font-normal mt-2 sm:ml-2 text-center'>1,600 people requested access a visit in last 24 hours</p>

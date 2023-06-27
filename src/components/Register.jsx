@@ -11,7 +11,7 @@ const Register = () => (
                 the endless possiblities.
             </h2>
         </div>
-        <div className=' flex justify-center items-center bg-black w-[190px] h-[60px] rounded-[40px] text-white'>
+        <div className=' flex justify-center items-center bg-black w-[190px] h-[60px] rounded-[40px] text-white cursor-pointer hover:text-secondary'>
             Get Started
         </div>
     </div>

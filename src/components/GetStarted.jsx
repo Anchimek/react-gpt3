@@ -22,7 +22,9 @@ const GetStarted = () => (
         mt-8
         lg:mt-52
       `}>
-        <p className='text-turqoise text-[12px] lg:text-[16px] text-salmon font-Manrope'>Request Early Access to Get Started</p>
+        <p className='text-turqoise text-[12px] lg:text-[16px] text-salmon font-Manrope cursor-pointer hover:font-bold'>
+          Request Early Access to Get Started
+        </p>
         <h2 className='text-[24px] lg:text-[30px] bgText-lightPurple-gradient font-Manrope font-extrabold mt-4'>
           The possibilities are beyond your imagination
         </h2>
@@ -32,7 +34,7 @@ const GetStarted = () => (
           joy alteration boisterous the attachment. Party we years to order 
           allow asked of.
         </p>
-        <p className='text-[12px] lg:text-[16px] text-salmon font-Manrope'>
+        <p className='text-[12px] lg:text-[16px] text-salmon font-Manrope cursor-pointer hover:font-bold '>
           Request Early Access to Get Started
         </p>
       </div>

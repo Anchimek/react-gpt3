@@ -15,7 +15,7 @@ const Navbar = () => {
               key={index}
               className={`
                 font-Monroe font-normal text-white 
-                text-[14px] lg:text-[16px] leading-[25px]
+                text-[14px] lg:text-[16px] leading-[25px] hover:text-secondary
                 ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}
               `}
             >
@@ -33,6 +33,7 @@ const Navbar = () => {
           <span className='
             font-Monroe font-normal text-white 
             text-[16px] leading-[25px] mr-5
+            cursor-pointer hover:text-secondary
           '>
             Sign in
           </span>

@@ -25,6 +25,7 @@ const App = () => (
           <GetStarted />
           <Register />
           <Blog />
+          <Footer />
         </div>
       </div>
 

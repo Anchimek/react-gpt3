@@ -22,7 +22,9 @@ const About = () => {
 
       <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center my-10 w-full'>
         <h2 className='text-[24px] lg:text-[30px] bgText-lightPurple-gradient font-Manrope font-extrabold sm:w-2/3'>The possibilities are beyond your imagination</h2>
-        <p className='text-[12px] text-salmon font-Manrope font-medium my-6'>Explore The Library</p>
+        <p className='text-[12px] text-salmon font-Manrope font-medium my-6 cursor-pointer hover:font-bold'>
+          Explore The Library
+        </p>
       </div>
 
       <div className='flex flex-col lg:flex-row py-4'>
